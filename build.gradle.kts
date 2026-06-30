@@ -59,9 +59,10 @@ subprojects {
             compilerOptions {
                 jvmTarget.set(JvmTarget.JVM_1_8) // Required
                 freeCompilerArgs.addAll(
-                    "-Xno-call-assertions",
-                    "-Xno-param-assertions",
-                    "-Xno-receiver-assertions"
+                 "-Xno-call-assertions",
+                 "-Xno-param-assertions",
+                 "-Xno-receiver-assertions",
+                 "-Xskip-metadata-version-check"             
                 )
             }
         }
