@@ -9,6 +9,7 @@ version = 1
 cloudstream {
     // All of these properties are optional, you can safely remove any of them.
 
+    name = "Українські відеосервіси"
     description = "Українські відеосервіси"
     authors = listOf("robedwinhouse")
 
